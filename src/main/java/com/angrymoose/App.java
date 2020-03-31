@@ -54,6 +54,7 @@ public class App {
         List<Motorista> motoristas2 = new ArrayList<Motorista>();
         motoristas2.add(new Motorista("12345678922", "TESTMAN", new Veiculo("SCATMAN", "WV", "BRANCO", Categoria.SIMPLES), FormaPagamento.DINHEIRO));
         dat.persisteMotoristas(motoristas2);
+        System.out.println("angry moose");
     }
 
 }
